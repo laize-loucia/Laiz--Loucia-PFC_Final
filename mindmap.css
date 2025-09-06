@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: #e6f6fd;
+  font-family: Arial, sans-serif;
+}
+
+/* Exemple de position (tu peux ajuster) */
+#developpement { top: 30%; left: 55%; }
+#entreprendre  { top: 30%; left: 25%; }
+#competences   { top: 65%; left: 45%; }
+
+#fwClient     { top: 15%; left: 55%; }
+#fwServeur    { top: 20%; left: 70%; }
+#dispositifs  { top: 40%; left: 70%; }
+#composants   { top: 50%; left: 60%; }
+#hebergement  { top: 20%; left: 40%; }
+
+#concevoir    { top: 15%; left: 25%; }
+#piloter      { top: 40%; left: 15%; }
+#defendre     { top: 45%; left: 35%; }
+#maitriser    { top: 30%; left: 10%; }
+
+#realiser     { top: 70%; left: 60%; }
+#etablir      { top: 80%; left: 45%; }
+#retraduire   { top: 75%; left: 30%; }
+
+
+#canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh; 
+}
+#canvas svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* ou plus selon empilement */
+}
+
+
+
+
+.node {
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  cursor: move;
+  border: 2px solid #024959;
+}
+
+.moi {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  top: 45%;
+  left: 45%;
+}
+
+.categorie {
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+}
+
+/*#4ee8c4;*/
+.dev {
+  background-color:  #50c878;;
+}
+
+/* #2f78bd*/
+.entreprendre {
+  background-color: #4a90e2;;
+}
+
+/*#f6b3f4*/
+.competences {
+  background-color: #ce589f;;
+  color: black;
+}
+
+.skill {
+  width: 120px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  font-size: 0.9em;
+}
+

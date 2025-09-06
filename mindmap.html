@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carte mentale</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mindmap.css">
+  <script defer src="mindmap.js"></script>
+</head>
+<body>
+
+  <div class="header-container">
+        <div class="myname">Loucia Laizé</div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu1">
+            <ul>
+               <li><a href="C1.html">Développer</a></li>
+                <li><a href="C2.html">Entreprendre</a></li>
+                <li><a href="C3.html">Compétences métiers</a></li>
+                <li><a href="mindmap.html">Carte mentale</a></li>
+            </ul>
+        </div>
+    </div>
+    <nav class="breadcrumb">
+        <a href="index.html" class="breadcrumb-link">
+            <i class="fas fa-home"></i>
+            Accueil
+        </a>
+        <span class="breadcrumb-separator">></span>
+        <span class="breadcrumb-current">Carte mentale</span>
+    </nav>
+  <div id="canvas">
+    <svg width="100%" height="100%"></svg>
+
+    <!-- Centre -->
+    <div class="node moi" id="moi">MOI</div>
+
+    <!-- Catégories principales -->
+    <div class="node categorie dev" id="developpement">Développer</div>
+    <div class="node categorie entreprendre" id="entreprendre">Entreprendre</div>
+    <div class="node categorie competences" id="competences">C-métiers</div>
+
+    <!-- Développement -->
+    <div class="node skill dev" id="hebergement">Hébergement</div>
+    <div class="node skill dev" id="fwClient">Framework</div>
+    <div class="node skill dev" id="fwServeur">Framework</div>
+    <div class="node skill dev" id="composants">Composants</div>
+    <div class="node skill dev" id="dispositifs">Dispositifs</div>
+
+    <!-- Entreprendre -->
+    <div class="node skill entreprendre" id="concevoir">Concevoir</div>
+    <div class="node skill entreprendre" id="piloter">Piloter</div>
+    <div class="node skill entreprendre" id="defendre">Défendre</div>
+    <div class="node skill entreprendre" id="maitriser">Maîtriser</div>
+
+    <!-- Compétences métiers -->
+    <div class="node skill competences" id="realiser">Réaliser</div>
+    <div class="node skill competences" id="etablir">Établir</div>
+    <div class="node skill competences" id="retraduire">Retranscrire</div>
+  </div>
+</body>
+</html>
