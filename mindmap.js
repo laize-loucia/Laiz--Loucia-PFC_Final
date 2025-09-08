@@ -1,6 +1,6 @@
 
 const links = [
-  // MOI → Catégories
+  // MOI ET les Catégories
   { from: 'moi', to: 'developpement' },
   { from: 'moi', to: 'entreprendre' },
   { from: 'moi', to: 'competences' },
@@ -23,7 +23,7 @@ const links = [
   { from: 'competences', to: 'etablir' },
   { from: 'competences', to: 'retraduire' },
 
-  // ✅ Liens entre compétences
+  // Liens entre compétences
   { from: 'fwClient', to: 'fwServeur' },
   { from: 'fwClient', to: 'composants' },
   { from: 'hebergement', to: 'fwServeur' },
@@ -94,3 +94,4 @@ document.addEventListener("mouseup", () => {
 
 window.addEventListener("resize", drawLines);
 window.addEventListener("load", drawLines);
+
