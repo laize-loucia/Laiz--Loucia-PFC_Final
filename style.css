@@ -378,7 +378,7 @@ body {
         color: #6c757d;
     }
 
-    /* En-tête de page */
+    /* Header */
     .page-header {
         position: relative;
         height: 40vh;
@@ -424,7 +424,7 @@ body {
         margin: 0 auto;
     }
 
-    /* Carte de compétence */
+    /* Cartes de compétence */
     .competence-card {
         background: white;
         border-radius: 12px;
@@ -451,7 +451,7 @@ body {
         border-radius: 8px;
     }
 
-    /* Styles pour les images des compétences */
+    /* Images des compétences */
     .competence-image {
         flex: 0 0 40%;
         position: relative;
@@ -486,7 +486,6 @@ body {
     }
 
 
-/* Pour les images qui doivent être contenues plutôt que coupées 
 .competence-image.contain img {
     object-fit: contain;
 }*/
@@ -639,4 +638,5 @@ body {
         font-size: 1.3rem;
     }
 }
+
 
