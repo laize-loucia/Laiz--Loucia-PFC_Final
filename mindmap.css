@@ -4,7 +4,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Exemple de position (tu peux ajuster) */
 #developpement { top: 30%; left: 55%; }
 #entreprendre  { top: 30%; left: 25%; }
 #competences   { top: 65%; left: 45%; }
@@ -36,7 +35,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0; /* ou plus selon empilement */
+  z-index: 0; 
 }
 
 
@@ -95,4 +94,5 @@ body {
   border-radius: 50%;
   font-size: 0.9em;
 }
+
 
