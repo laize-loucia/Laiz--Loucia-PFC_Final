@@ -1,5 +1,5 @@
 # Portfolio de mes Compétences – Formation MMI
-J'ai été étudiante et Alternante en MMI *Métiers du Multimédia et de l’Internet**, parcours développement web et dispositifs interactifs
+J'ai été étudiante et Alternante en MMI **Métiers du Multimédia et de l’Internet**, parcours développement web et dispositifs interactifs
 
 Ce portfolio ou portefuille de compétence illustre les compétences que j'ai acquise en développement, et lors de mon expérience en tant que Chef de projet digital chez **Renault Group** en gestion de projet transverse.
 
