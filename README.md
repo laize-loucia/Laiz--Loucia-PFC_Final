@@ -7,4 +7,4 @@ J'ai voulu représenter à travers une carte mentale ma capacité à **lier les 
 - **La retranscription des besoins utilisateurs** : Comprendre et traduire en produit opérationnel des attentes et exigences métiers
 - **La transversalité** entre développement, UX/UI, gestion de projet et communication.
 - **L'automatisation / facilitation** : Concevoir des outils et processus accessibles et intuitifs
-avec : [![My Skills](https://skillicons.dev/icons?i=java,php,flutter,kotlin,Docker,figma&theme=light)](https://skillicons.dev)
+avec : [![My Skills](https://skillicons.dev/icons?i=java,php,flutter,kotlin,javascript,figma&theme=light)](https://skillicons.dev)
