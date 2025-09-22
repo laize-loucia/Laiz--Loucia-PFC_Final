@@ -8,4 +8,3 @@ J'ai voulu représenter à travers une carte mentale ma capacité à **lier les 
 - **La transversalité** entre développement, UX/UI, gestion de projet et communication.
 - **L'automatisation / facilitation** : Concevoir des outils et processus accessibles et intuitifs
 
-[![Loucia's GitHub stats](https://github-readme-stats.vercel.app/api?username=loucia)](https://github.com/laize-loucia/github-readme-stats)
